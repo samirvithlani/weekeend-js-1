@@ -1,0 +1,52 @@
+JAVA SCRIPT 
+
+what is programming language ????
+
+scripting -->
+
+compiler interpreter....
+c -> console --->
+
+browser ---> client side....
+client scripting language --->
+HTML pages ---> 
+
+ENGINES : --->  
+
+netscape ---> spider monkey ---> firefox
+
+V8 engine ---> chrome
+Spider monkey ---> firefox --> 1st 
+safari ---> webkit engine --->
+edge ---> chakra engine --->
+
+use --->
+
+HTML --->
+
+WINDOW DOM --> document object model
+
+BOM -->DOM --> java STATIC PAGES -->
+
+-------------------------------------------
+1) script tag
+2) .js file
+3) inline js
+-------------------------------------------
+operators : opearators are special symbols which are used to perform operations on operands
+
+type of opearators:
+arithmatic opearators : +,-,*,/,%,++,--
+relational opearators : <,>,<=,>=,==,!=,===,!==,instanceof
+logical opearators : &&,||,!
+bitwise opearators : &,|,^,~,<<,>>,>>>
+asisgnment opearators : =,+=,-=,*=,/=,%=,<<=,>>=,&=,^=,|=
+ternary opearators : ?:
+
+
+
+
+
+
+
+

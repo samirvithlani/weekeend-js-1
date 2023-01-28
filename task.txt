@@ -1,0 +1,9 @@
+#kunika meet
+
+1)no is positve or negative
+2)no even odd
+3)no evn 3 divisible  by 3 or not
+
+
+/ 1 to 50 --> even no --
+// 6 or  7 -> 42  ---> even od./////
