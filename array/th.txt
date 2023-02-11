@@ -1,0 +1,5 @@
+dynamically
+
+array : array is an group of   of data !!!!
+
+use: array is used to store multiple values in a single variable
