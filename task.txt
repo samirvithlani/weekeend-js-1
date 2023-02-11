@@ -7,3 +7,6 @@
 
 / 1 to 50 --> even no --
 // 6 or  7 -> 42  ---> even od./////
+
+
+before custom sorting check data type....
