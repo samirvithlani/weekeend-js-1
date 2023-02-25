@@ -45,6 +45,15 @@ ternary opearators : ?:
 
 
 
+tag :
+
+id
+name
+class
+tag
+
+
+
 
 
 
