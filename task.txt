@@ -47,3 +47,13 @@ employees =[
 
 user can not press x
 
+imgage is small
+
+on scroll image size should max
+
+image size shild descrese on mouse over....
+
+
+first you need check data is avaialabe on json --->
+
+hi -->simlar --> json

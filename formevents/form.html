@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./form.js"></script>
+</head>
+<body>
+
+    <form onsubmit="handleSubmit(event)">
+        ENTER NAME
+        <input type="text" id="txtName" onblur="checkName()">
+        <p id="pNameError"></p>
+        ENTER EMAIL
+        <input type="text" id="txtEmail">
+        ENTER AGE
+        <input type="text" id="txtAge" onkeyup="valid()">
+        <p id="pAgeError"></p>
+        <input type="submit" value="SUBMIT">
+    </form>
+
+
+
+    <form onsubmit="handleSubmit(event)">
+        <table>
+            <tr>
+                <td>ENTER NAME</td>
+                <td>
+                    <input type="text" id="txtName" onblur="checkName()">
+                    <p id="pNameError"></p>    
+                </td>
+                
+            </tr>
+            <tr>
+                <td>ENTER EMAIL</td>
+                <td>
+                    <input type="text" id="txtEmail">
+                </td>
+            </tr>
+            <tr>
+                <td>ENTER AGE</td>
+                <td>
+                    <input type="text" id="txtAge" onkeyup="valid()">
+                    <p id="pAgeError"></p>
+                </td>
+            </tr>
+            <tr>
+                
+                <td>
+                    <input type="submit" value="SUBMIT">
+                </td>
+            </tr>
+        </table>
+        <div>
+            <p id="pName"></p>
+            <p id="pEmail"></p>
+            <p id="pAge"></p>
+        </div>
+
+
+    </form>
+
+
+
+</body>
+</html>
