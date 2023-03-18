@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./Order.js"></script>
+    <style>
+        .box{
+            border: 1px solid crimson;
+            width: 400px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+    </style>
+  </head>
+  <body>
+    <form onsubmit="order(event)">
+      <div>
+        <label for="size">
+          SIZE:
+          <select name="size" id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label for="crust">
+          CRUST:
+          <select name="crust" id="crust">
+            <option value="thin">Thin</option>
+            <option value="thick">Thick</option>
+            <option value="stuffed">Stuffed</option>
+          </select>
+        </label>
+      </div>
+
+      <div>
+        <label for="sauses">
+          SAUSES:
+          <select name="sauses" id="sauses">
+            <option value="tomato">Tomato</option>
+            <option value="bbq">BBQ</option>
+            <option value="spicy">Spicy</option>
+          </select>
+        </label>
+      </div>
+      
+      <div>
+        <label for="qty">
+            QTY:<input type="number" id ="qty">
+        </label>
+      </div>
+      <input type="submit" value="Order Pizza" />
+    </form>
+    <div id="bill" class="box">
+
+    </div>
+    <button onclick="placeOrder()">place order</button>
+    
+  </body>
+</html>
