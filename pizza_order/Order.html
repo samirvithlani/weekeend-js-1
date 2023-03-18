@@ -5,8 +5,16 @@
     <style>
         .box{
             border: 1px solid crimson;
-            width: 400px;
+            width: 500px;
             height: 100px;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+        .box1{
+            border: 1px solid crimson;
+            width: 300px;
+            height: 300px;
             margin: 10px;
             padding: 10px;
             display: inline-block;
@@ -52,9 +60,25 @@
             QTY:<input type="number" id ="qty">
         </label>
       </div>
+      <div>
+        <label for="KM">
+        KM:<input type="range" min="1" max="15" id="km">
+        </label>
+      </div>
       <input type="submit" value="Order Pizza" />
     </form>
     <div id="bill" class="box">
+
+    </div>
+    <div id ="printbill" class="box1">
+        SIZE:--<p id ="psize"></p>
+        CRUST:--<p id ="pcrust"></p>
+        SAUSE<p id ="psause"></p>
+        QTY<p id ="pqty"></p>
+        KM<p id ="pkm"></p>
+        TAX<p id ="ptax"></p>
+        TOTAL<p id ="ptotal"></p>
+        
 
     </div>
     <button onclick="placeOrder()">place order</button>
