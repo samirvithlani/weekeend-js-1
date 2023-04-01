@@ -57,3 +57,7 @@ image size shild descrese on mouse over....
 first you need check data is avaialabe on json --->
 
 hi -->simlar --> json
+
+
+
+single sytem using promise thn.....
