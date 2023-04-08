@@ -1,0 +1,27 @@
+user{
+    id,name,email,password
+}
+
+[login form]
+email
+
+and password
+
+submit
+login.js 
+
+
+login()
+
+alert user found....
+id = store localstorage....
+-------------------------------
+
+
+user.html
+login.js 
+
+101 -->
+
+
+
